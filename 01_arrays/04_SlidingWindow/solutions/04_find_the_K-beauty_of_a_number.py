@@ -1,0 +1,17 @@
+class Solution(object):
+    def divisorSubstrings(self, num, k):
+        """
+        :type num: int
+        :type k: int
+        :rtype: int
+        """
+        s = str(num)
+        count = 0
+
+        for i in range(len(s) - k + 1):
+            sub = s[i:i + k]
+            val = int(sub)
+            if val != 0 and num % val == 0:
+                count += 1
+
+        return count
