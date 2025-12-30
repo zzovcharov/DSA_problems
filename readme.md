@@ -11,36 +11,35 @@ This repository contains:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
-DSA_problems/
+```text
+DSA_problems
 │
-├── 01_arrays/
-│ ├── 01_basics/
-│ ├── 02_sorting/
-│ ├── 03_two_pointers/
-│ ├── 04_sliding_window/
-│ ├── 05_prefix_sum/
-│ └── 06_matrix/
+├── 01_arrays
+│ ├── 01_basics
+│ ├── 02_sorting
+│ ├── 03_two_pointers
+│ ├── 04_sliding_window
+│ ├── 05_prefix_sum
+│ └── 06_matrix
 │
-├── 02_strings/
-│ ├── notebooks/ # Jupyter notebooks (problem + approach)
-│ └── solutions/ # Clean .py implementations
+├── 02_strings
 │
-├── 03_trees/
+├── 03_trees
 │
-├── 04_graphs/
-│ ├── bfs/
-│ └── dfs/
+├── 04_graphs
+│ ├── 01_bfs
+│ └── 02_dfs
 │
-├── 05_stack/
+├── 05_stack
 │
-├── 06_queue/
+├── 06_queue
 │
-├── 07_heap/
+├── 07_heap
 │
-└── 08_hash_table/
-
+└── 08_hash_table
+```
 
 ---
 
